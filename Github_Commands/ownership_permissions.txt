@@ -1,0 +1,5 @@
+file ownership refers to the concept that every file and directory is associated to a specific 
+user and group while file modes are the permissions assigned to files and directories that control
+how users can interact with the files. These permissions are granted to the owner, group and others. 
+The three types of permissions are read(r), write(w) and execute(x). Permissions can be modified using the 
+"chmod" command with symbols (+, -, =) or numbers.
