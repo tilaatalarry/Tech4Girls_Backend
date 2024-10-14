@@ -1,0 +1,3 @@
+The root directory is the a directory common to all user. All files, directories,
+ users and programs stem from the root directory, while the home directory is user-specific. It is 
+ meant for storing personal files and directories.
