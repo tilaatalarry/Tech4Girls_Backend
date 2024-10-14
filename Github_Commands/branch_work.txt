@@ -1,0 +1,4 @@
+create a new branch using the command, "git branch <branch name>"
+switch to the new branch using the command, "git checkout <branch name>"
+to verify that the branch has been created, use the "git branch" command
+push the branch to GitHub using the command, :git  push origin <branch name>"
