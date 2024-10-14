@@ -1,0 +1,3 @@
+create the Backend_Projects directory using the "mkdir" command
+move the directory using the "cd" command
+now create two more directories in the Backend_Projects directory called ProjectA and ProjectB
