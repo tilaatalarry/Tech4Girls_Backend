@@ -1,0 +1,2 @@
+to grant the owner read and write permissions and the group and others read only permissions, 
+you can use the "chmod 644 <filename>" command
