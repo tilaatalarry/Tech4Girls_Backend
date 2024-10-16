@@ -1,0 +1,15 @@
+'-rw-r--r--': This indicates the file permissions.
+The first character '-' indicates that this is a regular file (not a directory).
+The next three characters 'rw-' indicate that the owner of the file has read (r) and write (w) 
+permissions.
+The next three characters 'r--' indicate that the group associated with the file has read (r) 
+permission only.
+The last three characters 'r--' indicate that others (everyone else) also have read (r) 
+permission only.
+'1': This number indicates the number of hard links to the file. In this case, there is one hard link.
+'userhacsa': This is the username of the owner of the file.
+'userhacsa': This is the name of the group that owns the file.
+'70': This indicates the size of the file in bytes
+'Oct 14 10:00: This shows the last modification date and time of the file. It was last modified on 
+October 14 at 10:00.
+'script.sh': This is the name of the file.
