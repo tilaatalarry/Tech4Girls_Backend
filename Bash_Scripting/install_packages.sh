@@ -3,4 +3,4 @@
 sudo apt update
 
 #this script installs fortune, cowsay, and cmatrix
-sudo apt install -y fortune cowsay cmatrix
+sudo apt install fortune cowsay cmatrix
