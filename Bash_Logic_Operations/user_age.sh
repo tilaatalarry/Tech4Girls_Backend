@@ -6,6 +6,6 @@
     echo "You are a minor."
 elif [ "$age" -ge 18 ] && [ "$age" -lt 64 ]; 
 then
-    echo "You are an adult."
+    echo "You are an adult. "
 else [["$age" -ge 65]]    
 fi
