@@ -13,5 +13,5 @@ then
 elif [ "$firstnum" -gt 10 ] || [ "$secondnum" -gt 10 ]; 
 then
 
-    echo "At least one number is greater than 10."
+    echo "At least one number is greater than 10. "
 fi    
