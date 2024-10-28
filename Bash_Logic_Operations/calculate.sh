@@ -12,4 +12,4 @@ sum=$((num1 + num2))
 product=$((sum * num3))
 
 echo "The sum of $num1 and $num2 is: $sum"
-echo "Multiplying the sum by $num3 gives: $product"
+echo "The product of $num1 and $num2 is $product"
