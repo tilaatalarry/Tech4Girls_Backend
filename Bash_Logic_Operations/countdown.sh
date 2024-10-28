@@ -8,4 +8,4 @@ for ((x = number; x >= 1; x--)); do
     echo "$x"
 done
 
-echo "Countdown complete!"
+echo "Countdown complete! "
