@@ -1,0 +1,72 @@
+int represents integer numbers, both positive and negative, without decimal points.
+Example:
+age = 19
+temperature = -12
+
+float represents numbers that can have decimal points.
+Example:
+pi = 3.142
+height = 1.7
+
+str represents a sequence of characters, enclosed in quotation marks.
+Example:
+name = "Hamdallah"
+greeting = 'Good morning, Larry!'
+
+list is a changeable ordered collection of items, which can be of different data types defined using square brackets.
+Example:
+names = ['araba', 'mahama', 'hamdallah']
+numbers = [1, 10, 3.25, 'six']
+
+tuple is an unchangeable ordered collection of items, which can also be of different data types defined using parentheses.
+Example:
+lemgth = (12, 5)
+person = ('Alice', 5, 23)
+
+set is an unordered collection of unique items. Sets are changeable and are defined using curly braces.
+Example:
+unique_numbers = {1, 2, 3, 4}
+letters = {'a', 'b', 'c', 'a'} 
+
+upper() converts all characters in the string to uppercase.
+Example:
+text = "hello world"
+upper_text = text.upper()
+print(upper_text)  
+# Output: HELLO WORLD
+
+lower() converts all characters in the string to lowercase.
+Example:
+text = "HELLO WORLD"
+lower_text = text.lower()
+print(lower_text)  
+# Output: hello world
+
+replace() replaces a specified substring with another substring.
+Example:
+text = "I like cats"
+replaced_text = text.replace("cats", "dogs")
+print(replaced_text)  
+# Output: I like dogs
+
+split()
+Description: Splits the string into a list of substrings.
+Example:
+text = "Python is fun"
+split_text = text.split()
+print(split_text)  
+# Output: ['Python', 'is', 'fun']
+
+join() joins elements of a list into a single string with a specified separator.
+Example:
+fruits = ["apple", "banana", "cherry"]
+joined_text = ", ".join(fruits)
+print(joined_text)  
+# Output: apple, banana, cherry
+
+find() searches for a specified substring and returns the lowest index of its occurrence. 
+Example:
+text = "I love programming"
+index = text.find("love")
+print(index)  
+# Output: 2
