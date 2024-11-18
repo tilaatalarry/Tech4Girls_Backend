@@ -1,0 +1,34 @@
+Encapsulation is a fundamental concept in OOP that combines attributes and methods that work 
+with those attributes into a single unit known as a class. This protective layer around the data 
+prevents unauthorized access.
+
+Abstraction is the process of taking away or removing characteristics from something in order to reduce 
+it to a set of essential characteristics. Through the process of abstraction, a programmer hides all but 
+the relevant data about an object in order to reduce complexity and increase efficiency.
+
+Inheritance is a feature of Object-Oriented-programming in which a derived class (child class) inherits 
+the property of the Base class (parent class)
+
+Polymorphism is a fundamental concept in object-oriented programming (OOP) that allows objects of different 
+types to be accessed through the same interface.
+
+OOP allows developers to break down complex problems into smaller, manageable parts called classes. It also allows 
+for the classes to be reused in multiple parts of the program, through the concept of inheritance, preventing 
+duplication. OOP also supports abstraction, making it easier for developers to work with objects without needing 
+to understand every aspect of their inner workings. In summary, OOP's emphasis on modularity, reusability, and 
+clear structure makes it a powerful tool for building robust and maintainable software systems. 
+
+Hospital Management System
+Classes: Person, Patient, Doctor, Appointment
+
+Encapsulation: The Patient class may encapsulate patient details, such as medical history and medications, 
+with methods like modifyMedicalHistory() to control how this information is accessed or modified.
+
+Abstraction: The Appointment class can provide methods like schedule(), which hides the complexities of 
+date and time calculations and checks for doctor availability.
+
+Inheritance: The Person class can be the base class with derived classes Patient and Doctor. Both classes 
+inherit common attributes like name, ID and contactInfo, while also defining their specific attributes and behaviors.
+
+Polymorphism: The Doctor class can have a method PrescribeMedication(). Different types of doctors 
+(e.g., Pediatrician, Cardiologist) can implement this method according to their specialties.
